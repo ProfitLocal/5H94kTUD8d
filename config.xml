@@ -20,7 +20,7 @@ Add some excitement to your time in Byron Bay. There are numerous activities and
     </author>
 	<access origin="*" />
 	<gap:plugin name="com.phonegap.plugins.barcodescanner" />
-	<gap:plugin name="com.phonegap.plugins.pushplugin" version="2.0.3" />
+	<gap:plugin name="com.phonegap.plugins.pushplugin" version="2.4.0" />
 	<gap:plugin name="com.phonegap.plugins.facebookconnect">
 		<param name="APP_ID" value="687342247948239" />
 		<param name="APP_NAME" value="MyFirstApp" />
