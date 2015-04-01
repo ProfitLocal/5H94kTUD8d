@@ -44,7 +44,7 @@ Add some excitement to your time in Byron Bay. There are numerous activities and
     <preference name="stay-in-webview" value="true" />
 	<preference name="prerendered-icon" value="false"/>
 
-  
+    <icon src="icon.png" />
    
        <platform name="android">
               <icon src="res/icon/android/ldpi.png" density="ldpi" />
