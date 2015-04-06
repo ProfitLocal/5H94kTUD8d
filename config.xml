@@ -20,7 +20,8 @@ Add some excitement to your time in Byron Bay. There are numerous activities and
     </author>
 	<access origin="*" />
 	<gap:plugin name="com.phonegap.plugins.barcodescanner" />
-	<gap:plugin name="com.phonegap.plugins.pushplugin" version="2.4.0" />
+	<gap:plugin name="com.phonegap.plugins.pushplugin"  />
+        <gap:plugin name="com.adobe.plugins.gaplugin" />
 	<gap:plugin name="com.phonegap.plugins.facebookconnect">
 		<param name="APP_ID" value="687342247948239" />
 		<param name="APP_NAME" value="MyFirstApp" />
@@ -36,7 +37,7 @@ Add some excitement to your time in Byron Bay. There are numerous activities and
 	<feature name="http://api.phonegap.com/1.0/network"/>
 	<feature name="http://api.phonegap.com/1.0/notification"/>
 
-    <preference name="phonegap-version" value="3.5.0" />
+    <preference name="phonegap-version" />
     <preference name="orientation"      value="portrait" />
     <preference name="target-device"    value="universal" />
     <preference name="fullscreen"       value="false" />
