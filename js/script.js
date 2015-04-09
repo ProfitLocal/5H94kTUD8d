@@ -3972,7 +3972,7 @@ function indexTabInfo() {
             }
 
         }
-        
+        $('.ui-loader-default').hide();
     });
 	getUserAppereance();
     })
