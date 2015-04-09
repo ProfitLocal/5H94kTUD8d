@@ -2865,6 +2865,7 @@ function doAjaxCall(url, data, showLoading, callback) {
         },
         error: function (html) {
             //console.log(html);
+			$('.loadingDiv').hide();
         }
     });
 }
