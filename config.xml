@@ -64,7 +64,8 @@ Add some excitement to your time in Byron Bay. There are numerous activities and
     <gap:splash src="res/screen/ios/mob_splash/splash_screen_320x480.png"    	gap:platform="ios"     width="320" height="480" />
     <gap:splash src="res/screen/ios/ip5_splash/splash_screen640x960.png" 		gap:platform="ios"     width="640" height="960" />
     <gap:splash src="res/screen/ios/ipad_splash/splash_screen768x1024.png"      gap:platform="ios"     width="768" height="1024" />
-    
+    <gap:splash src="res/screen/ios/ipad_splash/splash_screen750x1334.png"      gap:platform="ios"     width="750" height="1334" />
+    <gap:splash src="res/screen/ios/ipad_splash/splash_screen1242x2208.png"      gap:platform="ios"     width="1242" height="2208" />
     
 	
 	
