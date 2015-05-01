@@ -46,7 +46,7 @@ Add some excitement to your time in Byron Bay. There are numerous activities and
 	<preference name="prerendered-icon" value="false"/>
 
    
-  <icon src="res/icon.png" />
+  <icon src="res/icon.png" gap:platform="ios" />
     <icon src="res/icon/android/ldpi.png"   gap:platform="android"    gap:density="ldpi" />
     <icon src="res/icon/android/mdpi.png"   gap:platform="android"    gap:density="mdpi" />
     <icon src="res/icon/android/hdpi.png"   gap:platform="android"    gap:density="hdpi" />
@@ -72,7 +72,7 @@ Add some excitement to your time in Byron Bay. There are numerous activities and
     <gap:splash src="res/screen/ios/ipad_splash/splash_screen768x1024.png"      gap:platform="ios"     width="768" height="1024" />
     <gap:splash src="res/screen/ios/ipad_splash/splash_screen750x1334.png"      gap:platform="ios"     width="750" height="1334" />
     <gap:splash src="res/screen/ios/ipad_splash/splash_screen1242x2208.png"      gap:platform="ios"     width="1242" height="2208" />
--->	<gap:splash src="res/screen/ios/ip5_splash/Default-568h@2x.png.png"      gap:platform="ios"  />
+-->	<gap:splash src="res/screen/ios/ip5_splash/Default-568h@2x.png"      gap:platform="ios"  />
     
 	
 	
