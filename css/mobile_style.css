@@ -146,7 +146,7 @@ p
 /* by dheeraj */
 .TopBar ul#headerHome{
 list-style: none;
-padding: 0px;
+padding: 30px 0px 0px;
 margin: 0px;
 background: #333;
 background-image: -webkit-gradient(linear, left top, left bottom, from( #444 /*{a-bup-background-start}*/ ), to( #2d2d2d /*{a-bup-background-end}*/ ));
@@ -1651,7 +1651,16 @@ div.ui-mobile-viewport
     border-left-width: 0;
     border-right-width: 0;
 }
-
+.ui-mobile .ui-page {
+ padding-top: 70px;
+}
+.ui-mobile .ui-header
+{
+ position: absolute;
+ left: 0;
+ right: 0;
+ top: 0;
+}
 .ui-header .ui-btn-left,
 .ui-header .ui-btn-right,
 .ui-footer .ui-btn-left,
@@ -1660,7 +1669,7 @@ div.ui-mobile-viewport
 .ui-header-fixed.ui-fixed-hidden .ui-btn-right
 {
     position: absolute;
-    top: 3px;
+    top: 27px;
 }
 
 .ui-header-fixed .ui-btn-left,
@@ -1699,7 +1708,7 @@ div.ui-mobile-viewport
     text-align: center;
     font-size: 16px;
     display: block;
-    margin: .6em 30% .8em;
+   margin: 38px 30% .8em;
     padding: 0;
     text-overflow: ellipsis;
     overflow: hidden;
@@ -6155,6 +6164,14 @@ div.ui-slider-switch
         text-transform: uppercase;
         font-size: .9em;
         font-weight: normal;
+    }
+}
+@media ( max-width: 420px ){
+    .firstli{
+        width: 25% !important;
+    }
+    .lastli{
+        width: 41% !important;
     }
 }
 /* Breakpoint to show as a standard table at 560px (35em x 16px) or wider */
